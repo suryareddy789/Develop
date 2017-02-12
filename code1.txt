@@ -1,0 +1,29 @@
+import java.util.ArrayList;
+
+public class NewTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int x=12;
+		int y=3;
+		int z=x+y;
+		int s=x-y;
+		int d=x*y;
+		float e=x/y;
+		boolean surya=false;
+		
+	ArrayList surya1 = new ArrayList();
+	System.out.println(surya1.size() +" list contains"+ surya1.toString());
+	surya1.add("lolla");
+	surya1.add(z);//index 0
+	surya1.add(s);//index 1
+	surya1.add(d);//index 2
+	System.out.println("List size "+surya1.size() +" list contains"+ surya1.toString());
+	surya1.remove(0);
+	System.out.println("List size "+surya1.size() +" list contains"+ surya1.toString());
+		System.out.println("Added value is :: "+z);
+		
+	
+	}
+
+}
