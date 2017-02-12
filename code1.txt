@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class NewTest {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// new TODO Auto-generated method stub
 		int x=12;
 		int y=3;
 		int z=x+y;
